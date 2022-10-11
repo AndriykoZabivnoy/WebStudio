@@ -1,0 +1,19 @@
+.div1, .div2, .div3{
+position: absolute;
+width: 150px;
+height: 150px;
+}
+.div1{
+background-color: rgb(241, 91, 91);
+}
+.div2{
+    z-index: 3;
+top: 80px;
+left: 80px;
+background-color: rgb(115, 115, 247);
+}
+.div3{ 
+top: 160px;
+left: 160px; 
+background-color: rgb(112, 236, 112);
+}

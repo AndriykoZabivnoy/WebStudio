@@ -1,0 +1,18 @@
+.div1{
+    border:10px ;
+    border-color:brown;
+    border-width:10px;
+    max-width:300px;
+    border-style: solid;
+    margin: 50px;
+}
+.div2{
+    border-color:brown;
+    border-style: dotted;
+    border-width:10px;
+    max-width: 300px;
+    margin: 50px;
+}
+.div3{
+    margin:50px;
+}

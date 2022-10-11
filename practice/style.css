@@ -1,0 +1,97 @@
+ul{
+    list-style: none;
+}
+.list-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* відображаємо курсор у вигляді руки при наведені; */
+    cursor: pointer;
+}
+.item-button{
+    box-sizing: border-box;
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-button:hover{
+    border: 2px solid #3E5860;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.sofa-products h2{
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 133.5%;
+    /* or 61px */
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #264A51;
+}
+.wrap{
+    margin-top: 100px;
+}
+.wrap_list{
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+    justify-content: center;
+}
+.wrap_item {
+    margin: 30px 50px 60px 0;
+    border: 2px solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 316px;
+    background-repeat: no-repeat;
+}
+.wrap_item:nth-child(1){
+    background-image: url(./chair_1.png);
+}
+.wrap_item:nth-child(2){
+    background-image: url(./chair_2.png);
+}
+.wrap_item:nth-child(3){
+    background-image: url(./chair_3.png);
+}
+.wrap_item:nth-child(4){
+    background-image: url(./chair_4.png);
+}
+.wrap_item:nth-child(5){
+    background-image: url(./chair_5.png);
+}
+.wrap_item:nth-child(6){
+    background-image: url(./chair_6.png);
+}
+.wrap_box{
+    position: relative;
+}
+p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    background-color: rgba(0, 0, 255, 0.602);
+}
+.wrap_box:hover p{
+
+    transform: translateY(0);
+}

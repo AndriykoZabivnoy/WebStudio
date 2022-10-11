@@ -1,0 +1,56 @@
+body{
+    font-family: 'Ubuntu', serif;
+}
+
+.navigation li{
+    margin-right: 200px;
+    font-size:23px;
+    display: inline-block;
+}
+.navigation li:last-child{
+    margin:0;
+}
+.navigation a{
+color:#7D7D7D;
+text-decoration: none;
+text-transform: uppercase;
+}
+.navigation a:hover{
+    color:rgb(0, 8, 255);
+}
+header{
+    margin-left:450px;
+}
+
+
+
+.photoblock{
+    width: 420px;
+    
+}
+.photoblock h3{
+color:#84AD9E;
+font-family: "Ubuntu";
+font-size: 14px;
+margin-top: 62px;
+}
+.photoblock h2{
+    color:gray;
+    font-weight: 400px;
+}
+.photoblock p{
+    font-size: 18px;
+}
+table{
+    border-spacing: 350px 200px;
+}
+.button1{
+    font-family: Ubuntu;
+    height: 80px;
+    border: 1px solid #626262;
+    color: rgb(96, 81, 81);
+    padding: 8px 46px;
+    font-size: 20px;
+    margin-left:860px;
+    margin-bottom:60px;
+}

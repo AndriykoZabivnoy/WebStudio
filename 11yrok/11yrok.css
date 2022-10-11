@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: serif;
+    background-color: blue;
+}
+
+.flex-container{
+list-style: none;
+padding: 10px;
+margin: 0;
+border-radius: 4px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.flex-container .link{
+list-style: none;
+padding: 10px;
+display: block;
+color: #000;
+border: 1px solid gray;
+border-radius: 5px;
+margin: 10px;
+background-color: #fff;
+
+}

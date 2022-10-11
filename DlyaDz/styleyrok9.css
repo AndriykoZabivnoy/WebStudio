@@ -1,0 +1,15 @@
+.divfirst{
+border: 2px solid blue;
+width: 100px;
+}
+.divsecond{
+border: 2px dashed yellowgreen;
+margin:15px 10px 15px 10px;
+height: 100px;
+}
+.classesdiv{
+    border: 2px dotted blueviolet;
+    width: 400px;
+    padding: 30px 0px 40px /* !!auto!! */;
+  /*  box-sizing: border-box; не дає збільшувати елемент*/
+}
