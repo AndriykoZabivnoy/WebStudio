@@ -1,0 +1,166 @@
+.hero {
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/hero.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    p{
+        font-family: 'Mukta', sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 700px;
+    }
+    a{
+        font-size: 20;
+    }
+    button{
+        margin-top: 40px;
+        width: 220px;
+        height: 60px;
+        background-color: #2196F3;
+        border: 1px solid #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        &:hover{
+            background-color: #1d78c3;
+            border: 1px solid #1d78c3;
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.65);
+            border-radius: 5px;
+            transition: linear 0.3s; 
+        }
+    &:hover{
+        color: white;
+        font-size: 16px;
+        transition: linear .3s;
+    }
+    }
+    a{
+        font-family: 'Mukta', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        &:hover{
+            color: white;
+            font-size: 16px;
+            transition: linear .3s;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .hero {
+        background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/hero.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            font-size: 19px;
+            text-align: center;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 100%;
+        }
+        button{
+            width: 200px;
+            height: 60px;
+            background-color: #2196F3;
+            border: 1px solid #2196F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            &:hover{
+                background-color: #1d78c3;
+                border: 1px solid #1d78c3;
+                box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.65);
+                border-radius: 5px;
+                transition: linear 0.3s; 
+            }
+        }
+        a{
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+    }    
+    .hero button:hover a{
+        color: white;
+        font-size: 14px;
+        transition: linear .3s;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .hero {
+        background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../image/hero.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 90px;
+        p{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 700px;
+            line-height: 25px;
+            width: 307px;
+        }
+        a{
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+        button{
+        margin-top: 37px;
+        width: 220px;
+        height: 60px;
+        background-color: #2196F3;
+        border: 1px solid #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        &:hover{
+            background-color: #1d78c3;
+            border: 1px solid #1d78c3;
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.65);
+            border-radius: 5px;
+            transition: linear 0.3s; 
+        }
+    }
+    }
+   .hero button:hover a{
+        color: white;
+        font-size: 19px;
+        transition: linear .3s;
+    }
+}

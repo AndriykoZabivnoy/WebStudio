@@ -1,0 +1,110 @@
+.first_table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    td div{
+        margin: 10px;
+        width: 270px;
+        height: 90px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    td{
+
+        text-align: center;
+        width: 270px;
+        h4{
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #212121;
+        }
+        p{
+            margin-top: 10px;
+            font-family: 'Mukta', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            color: #757575;
+        }
+    }
+}
+.f_h2{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 90px 0 50px;
+}
+@media screen and (max-width: 480px) { 
+    .first_table{
+        tr{
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        td{
+            div{
+   
+                height: 90px;
+                background: #F5F4FA;
+                border-radius: 4px;
+                display: flex;
+                justify-content: center;
+                padding-top: 10%;
+        
+            } 
+            h4{
+                margin-left: 5%;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                font-size: 12px;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: #212121;
+                text-align: center;
+            }
+            p{
+        margin-left: 5%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+        }
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .first_table{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 42px;
+        tr{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        td{
+            width: 354px;
+            div{
+                width: 354px;
+            }
+        }
+    }
+    .f_h2{
+        display: none;
+    }
+}
